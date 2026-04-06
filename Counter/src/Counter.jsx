@@ -8,7 +8,11 @@ function Counter() {
   }
 
   function Subtract() {
-    setCounter((prev) => prev > 0? prev-1: 0);
+    setCounter((prev) => (prev > 0 ? prev - 1 : 0));
+  }
+
+  function Reset() {
+    setCounter((prev) => (prev = 0));
   }
 
   return (
@@ -19,6 +23,7 @@ function Counter() {
       <div>
         <h2>{counter}</h2>
         <button onClick={Add}>+</button>
+        <button onClick={Reset}>Reset</button>
         <button onClick={Subtract}>-</button>
       </div>
     </main>
