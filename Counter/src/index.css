@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #4f46e5;
+  --resetBtn-color: #78767a;
+  --font-main: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f7f9fb;
+  color: var(--primary-color);
+  font-family: var(--font-main);
+}
