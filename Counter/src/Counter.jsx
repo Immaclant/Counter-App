@@ -20,21 +20,21 @@ function Counter() {
 
   return (
     <main className="counter-container">
-      <div className="header-text">
+      <div className="counter-text">
         <h2>Active Count</h2>
       </div>
       <div className="counter-value-container">
         <h2 className="counter-value">{counter}</h2>
         <div className="button-container">
-        <button className="btn btn-add" onClick={Add}>
-          +
-        </button>
-        <button className="btn btn-reset" onClick={Reset}>
-          Reset
-        </button>
-        <button className="btn btn-subtract" onClick={Subtract}>
-          -
-        </button>
+          <button className="btn btn-add" onClick={Add}>
+            +
+          </button>
+          <button className="btn btn-reset" onClick={Reset}>
+            Reset
+          </button>
+          <button className="btn btn-subtract" onClick={Subtract}>
+            -
+          </button>
         </div>
       </div>
     </main>
