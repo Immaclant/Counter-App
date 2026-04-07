@@ -1,12 +1,12 @@
 function Navbar() {
   return (
-    <header>
-      <nav>
-        <h1>Counter-App</h1>
-        <ul>
-          <li>Counter</li>
-          <li>History</li>
-          <li>Settings</li>
+    <header className="header">
+      <nav className="nav_container">
+        <h1 className="header-text">Counter-App</h1>
+        <ul className="nav_item">
+          <li className="listed-item">Counter</li>
+          <li className="listed-item">History</li>
+          <li className="listed-item">Settings</li>
         </ul>
       </nav>
     </header>
